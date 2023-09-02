@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Style fot shadow generator */
+
+label {
+  display: block;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 40px;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="color"] {
+  border: none;
+  background-color: transparent;
+  width: 55px;
+  height: 55px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+input[type="color"] {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 15px;
+  max-width: 300px;
+  font-size: 13px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-header {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.row > div {
+  margin-bottom: 20px;
+}
+
+
+/* Style for gallery */
+
+.gallery__card {
+  display: none;
+  padding: 20px;
+  border: 5px solid #edd8d8;
+  width: 560px;
+  height: 430px;
+  margin: 25px auto;
+}
+
+.big__card {
+  background-image: url(./img/sample.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 510px;
+  height: 280px;
+}
+
+.small__card {
+  margin-top: 20px;
+  
+}
+
+.button__circle {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.button__circle:hover {
+  cursor: pointer;
+}
